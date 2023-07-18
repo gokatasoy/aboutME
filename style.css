@@ -35,7 +35,8 @@
 }
 
 .navbar .container .logo {
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 900;
 }
 
 .navbar .container a {
@@ -63,9 +64,31 @@
 
 .main_header .container-content h2{
     font-size: 50px;
+    font-weight: 900;
+    border-bottom: 2px solid goldenrod;
+    display: inline-block;
 }
 
 .main_header .container-content p{
     font-size: 25px;
     color: white;
+}
+
+/* FOOTER */
+footer{
+    background-color: #071952;
+    color: white;
+    padding: 20px;
+}
+
+footer h6{
+    display: inline-block;
+    border-bottom: 1px solid;
+    color: goldenrod;
+    font-weight: 900;
+}
+
+footer p{
+    font-weight: 900;
+    color: goldenrod;
 }
