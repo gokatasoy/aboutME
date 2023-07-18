@@ -15,8 +15,17 @@ body{
     background-color: #071952;
 }
 
-.container a{
+.container .logo{
     font-size: 25px;
+}
+
+.container a{
+    font-size: 20px;
     text-decoration: none;
     color: goldenrod;
+}
+
+.container a:hover{
+    color: white;
+    transition: .3s;
 }
