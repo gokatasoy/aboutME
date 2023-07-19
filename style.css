@@ -22,14 +22,15 @@ body {
 /* //////////////////////////////////////////////////// */
 
 /* MAIN HEADER */
-.main_header {
+.main_content {
     height: 100vh;
     background-image: url("gabe.jpg");
     background-size: cover;
+
     position: relative;
 }
 
-.main_header::before {
+.main_content::before {
     content: "";
     position: absolute;
     top: 0;
@@ -39,13 +40,14 @@ body {
     background: rgba(0, 0, 0, 0.6);
 }
 
-.main_header * {
+.main_content * {
     z-index: 1;
 }
 
 /* NAVBAR */
 .navbar {
     background-image: linear-gradient(to right, #071952, black);
+    border-bottom: 1px solid goldenrod;
 }
 
 .navbar .container .logo {
@@ -65,7 +67,7 @@ body {
 }
 
 /* CONTENT */
-.main_header .container-content{
+.main_content .container-content{
     color: goldenrod;
 
     display: flex;
@@ -76,14 +78,14 @@ body {
     height: 100vh;
 }
 
-.main_header .container-content h2{
+.main_content .container-content h2{
     font-size: 50px;
     font-weight: 900;
     border-bottom: 2px solid goldenrod;
     display: inline-block;
 }
 
-.main_header .container-content p{
+.main_content .container-content p{
     font-size: 25px;
     color: white;
 }
@@ -94,6 +96,7 @@ footer{
     padding: 20px;
     background-image: linear-gradient(to right, #071952, black);
     margin-top: auto;
+    border-top: 1px solid goldenrod;
 }
 
 footer h6{
@@ -165,6 +168,9 @@ footer h6{
 /* MY CITY HTML */
 /* //////////////////////////////////////////////////// */
 
-.my_city{
-    background: linear-gradient(to top right, black, #6f5411);
+.my_city_grid{
+    width: 100%;
+}
+
+.my_city_grid .container_carousel{
 }
