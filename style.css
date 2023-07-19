@@ -7,6 +7,15 @@
     font-family: 'Lato', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* //////////////////////////////////////////////////// */
+/* INDEX HTML */
+/* //////////////////////////////////////////////////// */
+
 /* MAIN HEADER */
 .main_header {
     height: 100vh;
@@ -31,7 +40,7 @@
 
 /* NAVBAR */
 .navbar {
-    background-color: #071952;
+    background-image: linear-gradient(to right, #071952, black);
 }
 
 .navbar .container .logo {
@@ -76,9 +85,10 @@
 
 /* FOOTER */
 footer{
-    background-color: #071952;
     color: white;
     padding: 20px;
+    background-image: linear-gradient(to right, #071952, black);
+    margin-top: auto;
 }
 
 footer h6{
@@ -91,4 +101,36 @@ footer h6{
 footer p{
     font-weight: 900;
     color: goldenrod;
+}
+
+/* //////////////////////////////////////////////////// */
+/* LOGIN HTML */
+/* //////////////////////////////////////////////////// */
+
+.login_page {
+    background: linear-gradient(to top right, black, #071952);
+}
+
+.login_page .login_page_grid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_page img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.login_page .card{
+    background-color: white;
+}
+
+.login_page .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
