@@ -12,6 +12,11 @@ body {
     flex-direction: column;
 }
 
+.active{
+    color: goldenrod !important;
+    border-bottom: 1px solid goldenrod;
+}
+
 /* //////////////////////////////////////////////////// */
 /* INDEX HTML */
 /* //////////////////////////////////////////////////// */
@@ -31,7 +36,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .main_header * {
@@ -95,27 +100,16 @@ footer h6{
     display: inline-block;
     border-bottom: 1px solid;
     color: goldenrod;
-    font-weight: 900;
 }
-
-footer p{
-    font-weight: 900;
-    color: goldenrod;
-}
-
 /* //////////////////////////////////////////////////// */
 /* LOGIN HTML */
 /* //////////////////////////////////////////////////// */
 
-.login_page {
-    background: linear-gradient(to top right, black, #071952);
-}
-
 .login_page .login_page_grid{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .login_page img{
@@ -149,15 +143,12 @@ footer p{
 /* CONTACT HTML */
 /* //////////////////////////////////////////////////// */
 
-.contact{
-    background: linear-gradient(to top right, black, #071952);
-}
 
 .contact_grid{
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .contact_grid label{
@@ -168,4 +159,12 @@ footer p{
 .contact_grid h2{
     color: goldenrod;
     font-weight: 900;
+}
+
+/* //////////////////////////////////////////////////// */
+/* MY CITY HTML */
+/* //////////////////////////////////////////////////// */
+
+.my_city{
+    background: linear-gradient(to top right, black, #6f5411);
 }
