@@ -134,3 +134,38 @@ footer p{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.login_page label{
+    color: goldenrod;
+    font-weight: 900;
+}
+
+.login_page h2{
+    color: goldenrod;
+    font-weight: 900;
+}
+
+/* //////////////////////////////////////////////////// */
+/* CONTACT HTML */
+/* //////////////////////////////////////////////////// */
+
+.contact{
+    background: linear-gradient(to top right, black, #071952);
+}
+
+.contact_grid{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_grid label{
+    color: goldenrod;
+    font-weight: 900;
+}
+
+.contact_grid h2{
+    color: goldenrod;
+    font-weight: 900;
+}
