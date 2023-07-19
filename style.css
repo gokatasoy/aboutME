@@ -169,8 +169,15 @@ footer h6{
 /* //////////////////////////////////////////////////// */
 
 .my_city_grid{
-    width: 100%;
+    background-image: linear-gradient(to right, black, #071952);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.my_city_grid .container_carousel{
+.my_city_grid .carousel-item{
+    object-fit: cover;
+    object-position: top;
+    height: 700px;
 }
