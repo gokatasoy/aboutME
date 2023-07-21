@@ -12,7 +12,7 @@ body {
     flex-direction: column;
 }
 
-.active{
+.page_active {
     color: goldenrod !important;
     border-bottom: 1px solid goldenrod;
 }
@@ -24,7 +24,7 @@ body {
 /* MAIN HEADER */
 .main_content {
     height: 100vh;
-    background-image: url("gabe.jpg");
+    background-image: url("img/gabe.jpg");
     background-size: cover;
 
     position: relative;
@@ -67,7 +67,7 @@ body {
 }
 
 /* CONTENT */
-.main_content .container-content{
+.main_content .container-content {
     color: goldenrod;
 
     display: flex;
@@ -78,20 +78,20 @@ body {
     height: 100vh;
 }
 
-.main_content .container-content h2{
+.main_content .container-content h2 {
     font-size: 50px;
     font-weight: 900;
     border-bottom: 2px solid goldenrod;
     display: inline-block;
 }
 
-.main_content .container-content p{
+.main_content .container-content p {
     font-size: 25px;
     color: white;
 }
 
 /* FOOTER */
-footer{
+footer {
     color: white;
     padding: 20px;
     background-image: linear-gradient(to right, #071952, black);
@@ -99,45 +99,46 @@ footer{
     border-top: 1px solid goldenrod;
 }
 
-footer h6{
+footer h6 {
     display: inline-block;
     border-bottom: 1px solid;
     color: goldenrod;
 }
+
 /* //////////////////////////////////////////////////// */
 /* LOGIN HTML */
 /* //////////////////////////////////////////////////// */
 
-.login_page .login_page_grid{
+.login_page .login_page_grid {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.login_page img{
+.login_page img {
     width: 100%;
     height: 50vh;
     object-fit: cover;
     object-position: top;
 }
 
-.login_page .card{
+.login_page .card {
     background-color: white;
 }
 
-.login_page .card-body{
+.login_page .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.login_page label{
+.login_page label {
     color: goldenrod;
     font-weight: 900;
 }
 
-.login_page h2{
+.login_page h2 {
     color: goldenrod;
     font-weight: 900;
 }
@@ -147,19 +148,19 @@ footer h6{
 /* //////////////////////////////////////////////////// */
 
 
-.contact_grid{
+.contact_grid {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.contact_grid label{
+.contact_grid label {
     color: goldenrod;
     font-weight: 900;
 }
 
-.contact_grid h2{
+.contact_grid h2 {
     color: goldenrod;
     font-weight: 900;
 }
@@ -168,16 +169,27 @@ footer h6{
 /* MY CITY HTML */
 /* //////////////////////////////////////////////////// */
 
-.my_city_grid{
+.my_city_grid {
     background-image: linear-gradient(to right, black, #071952);
-    height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.my_city_grid .carousel-item{
+.my_city_grid .container_carousel{
+    padding: 50px;
+}
+
+.my_city_grid .carousel-item img {
     object-fit: cover;
     object-position: top;
-    height: 700px;
+    height: 100vh;
+}
+
+.my_city_grid .content{
+    color: white;
+    border: 1px solid red;
+    padding: 20px;
 }
