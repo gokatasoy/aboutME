@@ -7,11 +7,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 .page_active {
     color: goldenrod !important;
     border-bottom: 1px solid goldenrod;
