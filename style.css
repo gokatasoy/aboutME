@@ -163,28 +163,27 @@ footer h6 {
 /* //////////////////////////////////////////////////// */
 /* MY CITY HTML */
 /* //////////////////////////////////////////////////// */
-
-.my_city_grid {
-    background-image: linear-gradient(to right, black, #071952);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.my_city{
+    background-image: linear-gradient(to left, #071952, black);
 }
 
-.my_city_grid .container_carousel{
-    padding: 50px;
+.my_city .scrollspy{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
 }
 
-.my_city_grid .carousel-item img {
+.my_city .carousel{
+    padding: 10px;
+}
+
+.my_city .carousel-item img {
     object-fit: cover;
     object-position: top;
-    height: 100vh;
+    height: 70vh;
 }
 
-.my_city_grid .content{
-    color: white;
-    border: 1px solid red;
-    padding: 20px;
+.my_city .carousel-caption{
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
 }
