@@ -167,10 +167,19 @@ footer h6 {
     background-image: linear-gradient(to left, #071952, black);
 }
 
-.my_city .scrollspy{
+.my_city .content{
     padding: 10px;
     background-color: white;
     border-radius: 5px;
+}
+
+.my_city .content h4 ,h1{
+    color: goldenrod;
+    font-weight: 800;
+}
+
+.my_city .content h5{
+    color: goldenrod;
 }
 
 .my_city .carousel{
@@ -181,6 +190,12 @@ footer h6 {
     object-fit: cover;
     object-position: top;
     height: 70vh;
+}
+
+.my_city .content img {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
 }
 
 .my_city .carousel-caption{
