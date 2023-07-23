@@ -209,37 +209,48 @@ footer h6 {
 /* //////////////////////////////////////////////////// */
 
 .cv_page{
-    background-image: linear-gradient(to left, #071952, black);
+    background-color: black;
 }
 
 .cv_container {
-    height: 85vh;
+    background-color: #001e33;
+    color: white;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 20px;
 }
 
 /* col-2 */
-.cv_container aside {
-    background-color: red;
-    height: 80vh;
-}
 
+/* profile */
 .cv_container aside .profile{
-    height: 20vh;
-    background-color: pink;
+    text-align: center;
+    border-bottom: 1px solid #003c66;
 }
 
-.cv_container aside .skills{
-    height: 60vh;
-    background-color: yellow;
+.cv_container aside .profile p{
+    color: grey;
 }
 
-/* col-10 */
-.cv_container header{
-    background-color: blue;
-    height: 25vh;
+.cv_container aside .profile h4, label{
+    color: goldenrod;
 }
 
-.cv_container section{
-    background-color: green;
-    height: 55vh;
+.cv_container aside .profile img{
+    border-radius: 50%;
 }
+
+.cv_container aside .profile .personal_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_container aside .personal_info .row_{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* skills */
 
