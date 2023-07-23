@@ -257,14 +257,33 @@ footer h6 {
     background-image: url(img/binarybg.jpg);
     background-size: cover;
     border-radius: 20px;
-    height: 20vh;
+    height: 15vh;
 }
 
 .cv_container header .cv_header span{
     color: goldenrod;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
 }
 
+.cv_container section span{
+    color: goldenrod;
+    font-weight: 900;
+    border-bottom: 1px solid goldenrod;
+}
+
+.cv_container section h5{
+    color: goldenrod;
+}
+
+.cv_container section p{
+    font-size: 15px;
+}
+
+.cv_container section img{
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+}
 
 
