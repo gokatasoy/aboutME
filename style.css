@@ -252,5 +252,19 @@ footer h6 {
     align-items: center;
 }
 
-/* skills */
+/* col-10 */
+.cv_container header .cv_header_bg{
+    background-image: url(img/binarybg.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 20vh;
+}
+
+.cv_container header .cv_header span{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
 
