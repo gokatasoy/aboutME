@@ -202,3 +202,44 @@ footer h6 {
     backdrop-filter: blur(2px);
     border-radius: 15px;
 }
+
+
+/* //////////////////////////////////////////////////// */
+/* MY CITY HTML */
+/* //////////////////////////////////////////////////// */
+
+.cv_page{
+    background-image: linear-gradient(to left, #071952, black);
+}
+
+.cv_container {
+    height: 85vh;
+}
+
+/* col-2 */
+.cv_container aside {
+    background-color: red;
+    height: 80vh;
+}
+
+.cv_container aside .profile{
+    height: 20vh;
+    background-color: pink;
+}
+
+.cv_container aside .skills{
+    height: 60vh;
+    background-color: yellow;
+}
+
+/* col-10 */
+.cv_container header{
+    background-color: blue;
+    height: 25vh;
+}
+
+.cv_container section{
+    background-color: green;
+    height: 55vh;
+}
+
