@@ -173,7 +173,9 @@ footer h6 {
     border-radius: 5px;
 }
 
-.my_city .content h4 ,h1{
+.my_city .content h1
+.my_city .content h4
+{
     color: goldenrod;
     font-weight: 800;
 }
@@ -286,4 +288,22 @@ footer h6 {
     height: 100%;
 }
 
+/* //////////////////////////////////////////////////// */
+/* OUR LEGACY */
+/* //////////////////////////////////////////////////// */
+
+.ourLegacy_page{
+    background-image: linear-gradient(to left, #071952, black);
+    color: white;
+}
+
+.ourLegacy_page h1,
+.ourLegacy_grid h5{
+    color: goldenrod;
+}
+
+.ourLegacy_page .ourLegacy_grid{
+    /* height: 100vh; */
+    /* background-color: white; */
+}
 
