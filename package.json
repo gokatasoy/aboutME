@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "some description",
+  "main": "index.js",
+  "scripts": {
+    "test": "a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokatasoy/aboutME.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gokatasoy/aboutME/issues"
+  },
+  "homepage": "https://github.com/gokatasoy/aboutME#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
