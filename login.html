@@ -84,7 +84,7 @@
             <div class="card" style="max-width: 500px;">
                 <div class="row">
                     <div class="col-md">
-                        <form method="POST" action="login.php" class="card-body">
+                        <form method="POST" action="login.php" class="card-body" onsubmit="return validateForm()">
                             <h2 class="title mt-3 mb-5 text-center">
                                 Login Page
                             </h2>
@@ -92,19 +92,20 @@
                                 <div class="col-12 mb-4">
                                     <label name="yourName" for="yourName" class="form-label">Username</label>
                                     <input type="text" class="form-control" id="yourName" name="yourName">
-
+                                    <p id="nameError" style="display: none; color: red;">Please enter your username</p>
                                 </div>
                                 <div class="col-12 mb-4">
                                     <label name="yourPassword" for="yourPassword" class="form-label">Password</label>
                                     <input type="password" class="form-control" id="yourPassword" name="yourPassword">
-
+                                    <p id="passwordError" style="display: none; color: red;">Please enter your password
+                                    </p>
                                 </div>
                                 <div class="col-12 mb-4">
                                     <input type="checkbox" class="check me-2" id="btncheck1" autocomplete="off">
                                     <label class="" for="btncheck1">Remember me</label>
                                 </div>
                                 <div class="col-12 d-grid">
-                                    <button type="submit" class="btn btn-primary ">Login</button>
+                                    <button type="submit" class="btn btn-primary">Login</button>
                                 </div>
                                 <div class="col-12 mt-4">
                                     <p class="text-center">Not a member? <button
@@ -164,6 +165,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script>
+        function validateForm() {
+            const username = document.getElementById('yourName').value;
+            const password = document.getElementById('yourPassword').value;
+            let valid = true;
+
+            if (username.trim() === '') {
+                document.getElementById('nameError').style.display = 'block';
+                valid = false;
+            } else {
+                document.getElementById('nameError').style.display = 'none';
+            }
+
+            if (password.trim() === '') {
+                document.getElementById('passwordError').style.display = 'block';
+                valid = false;
+            } else {
+                document.getElementById('passwordError').style.display = 'none';
+            }
+
+            return valid;
+        }
+    </script>
 </body>
 
 </html>
