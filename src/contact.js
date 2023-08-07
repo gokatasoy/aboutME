@@ -40,6 +40,7 @@ const ContactForm = () => {
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
+                            required
                         />
                     </div>
                     <div className="col-sm-6">
@@ -53,6 +54,7 @@ const ContactForm = () => {
                             name="surname"
                             value={formData.surname}
                             onChange={handleChange}
+                            required
                         />
                     </div>
                 </div>
@@ -69,6 +71,7 @@ const ContactForm = () => {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
+                            required
                         />
                     </div>
                     <div className="col-sm-6">
@@ -82,6 +85,7 @@ const ContactForm = () => {
                             name="password"
                             value={formData.password}
                             onChange={handleChange}
+                            required
                         />
                     </div>
                 </div>
@@ -97,6 +101,7 @@ const ContactForm = () => {
                             name="city"
                             value={formData.city}
                             onChange={handleChange}
+                            required
                         />
                     </div>
                     <div className="col-sm">
@@ -109,6 +114,7 @@ const ContactForm = () => {
                             name="state"
                             value={formData.state}
                             onChange={handleChange}
+                            required
                         >
                             <option value="1">One</option>
                             <option value="2">Two</option>
